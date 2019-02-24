@@ -5,7 +5,7 @@ public class App{
         p1.setCodigo("ABC1R23");
 
         Veiculo v = new Veiculo(p1);
-        v.abastece(50);
+        v.abastece(60);
         v.dirige(250);
         System.out.println("Dados do veiculo:");
         System.out.println(v);
