@@ -9,5 +9,6 @@ public class App{
         v.dirige(250);
         System.out.println("Dados do veiculo:");
         System.out.println(v);
-    }
+        System.out.println("----------------");
+        }
 }
