@@ -1,8 +1,6 @@
 public class App{
     public static void main(String args[]){
-        Placa p1 = new Placa();
-        p1.setPais("Brasil");
-        p1.setCodigo("ABC1R23");
+        Placa p1 = new Placa("Brasil","ABC1R23");
 
         Veiculo v = new Veiculo(p1);
         v.abastece(65);
