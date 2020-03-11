@@ -24,7 +24,7 @@ public class Veiculo{
         if (litros > 0.0){
             combustivel += litros;
         }
-        return litros;
+        return combustivel;
     }
 
     public double dirige(double distancia){
