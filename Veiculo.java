@@ -27,7 +27,14 @@ public class Veiculo{
         return combustivel;
     }
 
+    // Simula o deslocamento do carro por uma determinada distancia em Km:
+    //  - Diminui a quantidade de combustivel gasto do tanque
+    //  - Retorna a distancia efetivamente percorrida (com o combustivel disponivel)
     public double dirige(double distancia){
+        // Para distancias impossíveis retorna 0
+        if (distancia <= 0){
+            return 0.0;
+        }
         // Calcula o consumo para a distancia
         double consumo = distancia / consumoPorLitro;
         // Diminui o combustivel gasto e retorna a distancia percorrida
