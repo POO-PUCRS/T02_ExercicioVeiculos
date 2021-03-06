@@ -3,7 +3,7 @@ public class App{
         Placa p1 = new Placa("Brasil","ABC1R23");
         
         Veiculo v = new Veiculo(p1);
-        System.out.println("Dados do veiculo antes de abastecer:");
+        System.out.println("Dados do veiculo antes do abastecimento:");
         System.out.println(v);
         System.out.println("----------------");
 
